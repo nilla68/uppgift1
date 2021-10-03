@@ -1,0 +1,99 @@
+#header {
+    width: 73%;
+    margin: auto;
+
+    .hr {
+        margin-top: 1.7rem;
+        border-bottom: 1px solid $shadow-gray;
+    }
+        
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2.5rem;
+    
+        &-links {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            
+            i {
+                font-size: 1.5rem;
+                margin-left: 2rem;   
+                cursor: pointer;  
+            }
+            
+            a {
+                font-family: $roboto-medium;
+                font-size: 17px;
+                text-decoration: none;
+                color: $dark-gray;
+                margin-left: 3.1rem;
+            }
+
+            button {
+                margin-left:1.7rem;
+            }
+        }
+    }
+
+    .showcase {
+
+        &-background{
+            position: absolute;
+            top: 0px;
+            right: -200px;
+            z-index: -1;
+        }
+
+        &-image {
+            position: relative;
+            top: 0;
+            left: 0;
+    
+            img {
+                position: absolute;
+                top: 120px;
+                left: -10px;
+            }
+        }
+
+        &-content {
+            display: flex;
+
+            &-left {
+                grid-column: 1;
+                grid-row: auto;
+                margin-top: 13rem;
+
+                h1 {
+                    font-family: $poppins;
+                    font-size: 3.75rem;
+                    font-weight: bold;
+                    line-height: 1.2;
+                    color: $dark-gray;
+                    padding-bottom: 2rem;
+                }
+
+                p {
+                    padding-bottom: 2rem;
+                }
+            }
+            
+            &-right {
+
+                .header-shape-1 {
+                    position: relative;
+                    top: -100px;
+                    left: 300px;
+                }
+                
+                .header-shape-2 {
+                    position: relative;
+                    top: 0px;
+                    left: 0px;
+                }
+            }
+        }
+    }
+}

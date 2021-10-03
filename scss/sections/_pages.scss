@@ -1,0 +1,59 @@
+#pages {
+    width: 88%;
+    margin: auto;
+
+    .pages-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        margin-bottom: 8rem;
+
+        &-heading {
+            padding-right: 10rem;
+            margin-bottom: 5rem;
+        }
+
+        &-left {
+            padding-top: 9.5rem;
+        }
+
+        &-right {
+            margin-left: 7rem;
+        }
+
+        &-box {
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr;
+            grid-template-rows: auto auto;
+            margin-bottom: 2.8rem;
+
+            h3 {
+                font-family: $poppins-semibold;
+                font-size: 1.5rem;
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                padding-top: 0.9rem;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row: 2;
+                padding-right: 7rem;
+            }
+
+            .number {
+                font-family: $poppins;
+                font-weight: bold;
+                font-size: 3.75rem;
+                grid-column: 1;
+                grid-row-start: 1;
+                grid-row-end: 3;
+                color: $pink;
+            }
+        }
+    }
+}

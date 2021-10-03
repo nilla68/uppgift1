@@ -1,0 +1,61 @@
+#blog {
+    width: 73%;
+    margin: auto;
+    
+    .about {
+        text-align: center;
+        
+        h2 {
+            padding-bottom: 2rem;
+        }
+    }
+
+    .blog-content {
+        position: relative;
+            
+        .map {
+            position: absolute;
+            left: 210px;
+            top: 220px;
+            z-index: -1;
+        }
+
+        .statement {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3.5rem;
+            margin-bottom: 4rem;
+           
+            .amount {
+                font-family: $poppins-semibold;
+                font-size: 42px;
+                color: $pink;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 8rem;
+            border: 1px solid $shadow-gray;
+            border-radius: 15px;
+            background-color: $light;
+            box-shadow:0 4px 12px 3px $shadow-gray;
+            margin-left: 17.5rem;
+            margin-right: 17.5rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+            h3 {
+                font-family: $poppins-semibold;
+                font-size: 21px;
+            }
+        }
+    }
+}

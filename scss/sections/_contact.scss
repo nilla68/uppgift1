@@ -1,0 +1,49 @@
+#contact {
+    width: 73%;
+    margin: auto;
+
+    .contact-content {
+        margin-top: 10rem;
+    }
+
+    .contact-heading {
+        text-align: center;
+    }
+
+    .contact-boxes {
+        display: flex;
+        justify-content: center;
+        margin-top: 4.2rem;
+        
+        .card {
+            width:370px;
+            box-shadow: 0 4px 12px 3px $shadow-gray;
+            margin-right: 1.8rem;
+
+            .date {
+                font-family: $poppins;
+                font-size: 0.875rem;
+                color: $orange;
+                padding-bottom: 0.4rem;
+            }
+
+            h3 {
+                font-family: $poppins;
+                font-weight: bold;
+                font-size: 1.375rem;
+                line-height: 1.4;
+                padding-bottom: 1rem;
+            }
+
+            button {
+                margin-top: 1.7rem;
+                margin-bottom: 2rem;
+            }
+
+            &-context {
+                padding-top: 1.2rem;
+                padding-left: 2rem;
+            }
+        }
+    }
+}

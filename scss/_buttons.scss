@@ -1,0 +1,37 @@
+.button {
+    font-family: $roboto;
+    font-size: 17px;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-outline {
+    font-weight: 500;
+    color: $dark-gray;
+    border-color: $orange;
+    background-color: transparent;
+    
+    &:hover {
+        color: $light;
+        border-color: $orange;
+        background-color: $orange;
+    }
+}
+
+.button-gradient {
+    font-family: $roboto;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    color: $light;
+    border-color: transparent;
+    background: linear-gradient(279deg, rgba(255,166,46,1) 0%, rgba(242,55,121,1) 70%);
+    padding: 1rem 2rem;
+
+    &:hover {
+        color: $light;
+        border-color: $orange;
+        background: $orange;
+    }
+}

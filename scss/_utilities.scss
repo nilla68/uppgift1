@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    top:0;
+    left:0;
+    z-index: -2;
+    position: absolute;
+    //overflow: hidden;
+}
+
+.page {
+    width:100%;
+    max-width: 1600px;
+    overflow: hidden;
+}
+
+.heading-2 {
+    font-family: $poppins;
+    font-size: 48px;
+    line-height: 4rem;
+    color: $dark-gray;
+}
+
+.plain-text {
+    font-family: $roboto;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: $light-gray;
+}
